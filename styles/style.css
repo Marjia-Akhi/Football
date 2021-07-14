@@ -1,0 +1,273 @@
+/*--------------
+     Fonts
+------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/*--------------------------
+     Common styles and utilities
+-------------------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*-------------------------
+    Header parts start 
+----------------------------*/
+.top-background{
+    height: 677px;
+    background: #2D25A0;
+    margin-bottom: 70px;
+}
+.top-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    padding-top: 130px;
+    padding-left: 30px;
+
+}
+.top-part-detail{
+    width: 485px;
+    padding-left: 100px;
+}
+.top-part-detail h2{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-style: normal;
+    line-height: 80px;
+    text-align: left;
+}
+.top-part-img{
+    width: 556.01px;
+
+}
+.top-part-img img{
+    width: 556.01px;
+    height: 438px;
+}
+.anchor-style{
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+    width: 168px;
+    border-radius: 5px;
+}
+
+.anchor-style:hover{
+    transform: scale(1.20);
+    transition: ease-in-out 1s transform;
+}
+.anchor-style a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 8px;
+}
+/*--------------------
+     Header parts End 
+-----------------------*/
+
+
+/*------------------
+     Main part Start
+--------------------- */
+/* -----------------------
+    Players part start
+--------------------- */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+   
+}
+.player{
+    margin: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    overflow: hidden;
+    
+}
+.players-img img{
+    width: 300px;
+    height: 256px;
+    
+}
+.players-img:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 1s transform;
+}
+.players-detail{
+    width: 300px;
+}
+.players-detail p{
+    font-size: 16px;
+    color: gray;
+}
+/* -----------------------
+    Players part End
+--------------------- */
+
+
+/*--------------------------- 
+    Highlights part start
+------------------------------ */
+.highlight-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;
+}
+.highlight-detail{
+    width: 469px;
+}
+.highlight-detail h2{
+    color:#0A0826;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.highlight-detail p{
+    font-size: 16px;
+line-height: 28px;
+color: #6C6C6C;
+}
+.highlight-detail .anchor-style{
+    text-align: center;
+}
+
+.highlight-banner img{
+    width: 567px;
+    height: 427px;
+}
+
+/*--------------------------- 
+    Highlights part End
+------------------------------ */
+
+
+/*-------------------------------
+    Games and Features part Start
+---------------------------------  */
+.game-and-features{
+    margin-top: 110px;
+    background-color: rgba(128, 128, 128, 0.13);
+}
+.game-and-features h2{
+    color:#0A0826;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-top: 20px;
+}
+.features-part{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.features{
+    width: 350px;
+    margin:30px 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.features:hover .features-details{
+    display: block;
+}
+.features:hover .features-photo{
+    transform: scale(1.5);
+    transition: 2s ease-in-out transform;
+}
+.features img{
+    width: 350px;
+}
+
+.features-details{
+    position: absolute;
+    top: 0;
+    background-color: rgba(112, 128, 144, 0.247);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+.features-details h3{
+    color:#E02C6D;
+    font-size: 25px;
+}
+/*-------------------------------
+    Games and Features part End
+---------------------------------  */
+
+/*---------------------------
+     Help Part Start
+------------------------------ */
+.help-part{
+    background-color: #00061acc;
+    text-align: center;
+    height: 500px;
+}
+.help-part h2{
+    color: white;
+    font-weight: 700;
+    padding-top: 120px;
+    font-size: 40px;
+}
+.help-part p{
+    color: white;
+    padding: 10px 250px 50px 250px;
+    
+}
+.help-part a{
+    height: 75px;
+    width: 235px;
+    border: 3px solid rgb(73, 194, 241);
+    padding: 15px 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.help-part a:hover{
+    background-color:rgb(73, 194, 241) ;
+    transition: 1s ease-in-out;
+}
+/*---------------------------
+     Help Part End
+------------------------------ */
+
+/*-------------------------------
+     Footer part start 
+-----------------------------*/
+footer{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.football-part img{
+    width: 483.87px;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+.icon{
+    width: 170px;
+}
+.icon img{
+ width: 32px;
+ height: 32px;
+}
+.copyright-detail p{
+    font-size: 18px;
+}
+/*-------------------------------
+     Footer part End 
+-----------------------------*/
