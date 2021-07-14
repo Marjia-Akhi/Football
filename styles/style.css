@@ -3,7 +3,6 @@
 ------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-
 /*--------------------------
      Common styles and utilities
 -------------------------------- */
@@ -12,10 +11,11 @@ body{
     margin: 0;
     padding: 0;
 }
-
-
-
-
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*-------------------------
     Header parts start 
 ----------------------------*/
@@ -73,36 +73,25 @@ body{
 /*--------------------
      Header parts End 
 -----------------------*/
-
-
 /*------------------
      Main part Start
 --------------------- */
 /* -----------------------
     Players part start
 --------------------- */
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .players{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-   
+    grid-template-columns: repeat(3,1fr);  
 }
 .player{
     margin: 30px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px;
     overflow: hidden;
-    
 }
 .players-img img{
     width: 300px;
     height: 256px;
-    
 }
 .players-img:hover{
     transform: scale(1.2);
@@ -154,8 +143,6 @@ color: #6C6C6C;
 /*--------------------------- 
     Highlights part End
 ------------------------------ */
-
-
 /*-------------------------------
     Games and Features part Start
 ---------------------------------  */
@@ -245,6 +232,9 @@ color: #6C6C6C;
 /*---------------------------
      Help Part End
 ------------------------------ */
+/*----------------------------
+    Main part End
+------------------ */
 
 /*-------------------------------
      Footer part start 
